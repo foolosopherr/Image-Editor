@@ -43,7 +43,9 @@ def add_text(image, text, position, font_size, color):
     draw.text(position, text, fill=color, font=font)
     return image
 
-st.title("Проект стуента Людмилы Федоровой")
+st.title("Проект студента Людмилы Федоровой")
+st.write("## Группа: ИААБД-02-22")
+st.write("## Преподаватель: Инюшин Александр Николаевич")
 st.title("Редактор изображений")
 
 # Загрузка изображения
